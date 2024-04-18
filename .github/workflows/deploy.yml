@@ -15,7 +15,7 @@ jobs:
       - name: Checkout deploy branch
         uses: actions/checkout@v2
         with:
-          ref: 'refs/heads/deploy'
+          ref: 'refs/heads/main'
 
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.12.12
